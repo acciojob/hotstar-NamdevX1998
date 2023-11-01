@@ -22,7 +22,6 @@ public class SubscriptionController {
     public Integer buySubscription(SubscriptionEntryDto subscriptionEntryDto){
 
         //We need to buy subscription and save its relevant subscription to the db and return the finalAmount
-
         return subscriptionService.buySubscription(subscriptionEntryDto);
     }
 
@@ -46,7 +45,6 @@ public class SubscriptionController {
 
         //Calculate the total Revenue of hot-star from all the Users combined...
         return subscriptionService.calculateTotalRevenueOfHotstar();
-
     }
 
 }
